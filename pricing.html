@@ -426,7 +426,7 @@
   function goToSignup(plan, event) {
     event.stopPropagation()
     const billing = isAnnual ? 'annual' : 'monthly'
-    window.location.href = `/pricing.html?plan=${plan}&billing=${billing}`
+    window.location.href = `https://app.stockioxl.fr/signup?plan=${plan}&billing=${billing}`
   }
 
   function toggleFaq(el) {
