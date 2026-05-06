@@ -315,7 +315,7 @@
       <h3>Pas sûr de votre choix ?</h3>
       <p>Commencez avec n'importe quel plan — vous pouvez changer à tout moment. 14 jours gratuits, sans carte bancaire.</p>
     </div>
-    <a href="https://app.stockioxl.fr/signup?plan=pro" class="trial-btn">Essayer Pro gratuitement →</a>
+    <a href="/pricing.html?plan=pro" class="trial-btn">Essayer Pro gratuitement →</a>
   </div>
 
   <!-- Garanties -->
@@ -426,7 +426,7 @@
   function goToSignup(plan, event) {
     event.stopPropagation()
     const billing = isAnnual ? 'annual' : 'monthly'
-    window.location.href = `https://app.stockioxl.fr/signup?plan=${plan}&billing=${billing}`
+    window.location.href = `/pricing.html?plan=${plan}&billing=${billing}`
   }
 
   function toggleFaq(el) {
