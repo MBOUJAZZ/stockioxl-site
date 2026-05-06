@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/tarifs", "destination": "/pricing.html" },
+    { "source": "/plans", "destination": "/pricing.html" }
+  ]
+}
